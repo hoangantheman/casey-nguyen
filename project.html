@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport"content="width=device-width, initial-scale=1.0" >
+    <title>CASEY</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" >
+    <link rel="stylesheet" href="styles.css" >
+
+</head>
+
+
+<body class="project-page">
+
+
+    <!-- =========================
+         NORMAL PAGE TRANSITION
+    ========================== -->
+
+    <div class="page-transition">
+
+        <div class="page-transition-fill"></div>
+
+    </div>
+
+
+    <!-- =========================
+         FIXED VIDEO BACKGROUND
+    ========================== -->
+
+    <div class="project-background">
+
+        <img
+            class="project-poster"
+            id="project-poster"
+            src="images/sunflower.png"
+            alt=""
+        >
+
+        <iframe
+            class="project-video"
+            id="project-video"
+            src="https://player.vimeo.com/video/1219204829?autoplay=1&loop=1&background=1"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+        ></iframe>
+
+    </div>
+
+
+    <!-- =========================
+         FIXED PROJECT UI
+    ========================== -->
+
+    <header class="project-ui hero">
+
+
+        <p class="version">
+            v1.0
+        </p>
+
+
+        <h1 class="title">
+
+            <a
+                class="home-button"
+                href="index.html"
+            >
+                CASEY
+            </a>
+
+        </h1>
+
+
+        <h2 class="project-title"
+        id="project-title">
+            SUNFLOWER
+        </h2>
+
+
+         <div class="project-meta">
+
+            <span id="project-year">
+                2025
+            </span>
+
+            <span id="project-type">
+                SHORT FILM
+            </span>
+
+            <span id="project-role">
+                DIRECTOR
+            </span>
+
+        </div>
+
+        <button
+            class="mobile-nav-toggle project-menu-toggle"
+            aria-label="Open navigation"
+            aria-expanded="false"
+        ></button>
+
+            <nav class="secondary-nav">
+                <a href="about.html" class="nav-roll">
+                    <span>About</span>
+                    <span aria-hidden="true">About</span>
+                </a>
+
+                <a href="works.html" class="nav-roll">
+                    <span>Works</span>
+                    <span aria-hidden="true">Works</span>
+                </a>
+
+                <a href="contact.html" class="nav-roll">
+                    <span>Contact</span>
+                    <span aria-hidden="true">Contact</span>
+                </a>
+
+                <a href="#" id="theme-toggle" class="nav-roll">
+                    <span>Theme</span>
+                    <span aria-hidden="true">Theme</span>
+                </a>
+            </nav>
+
+
+    </header>
+
+
+    <!-- =========================
+         SCROLL CONTENT
+    ========================== -->
+
+    <main class="project-content">
+
+
+        <!-- EMPTY SPACE / VIDEO HERO -->
+
+        <section class="project-hero-space">
+        </section>
+
+
+        <!-- WHITE VIEWPORT -->
+
+        <section class="project-panel">
+
+                <!-- =========================
+                    PROJECT IMAGE TRAIL
+                ========================== -->
+
+                <div
+                    class="project-trail"
+                    id="project-trail"
+                    aria-hidden="true"
+                ></div>
+
+
+
+                </div>
+
+            <div
+                class="project-content-wrapper"
+                id="project-content"
+            >
+
+            </div>
+
+            <div class="project-navigation">
+
+                <a
+                    class="project-previous"
+                    id="project-previous"
+                    href="#"
+                >
+                </a>
+
+
+                <a
+                    class="project-next"
+                    id="project-next"
+                    href="#"
+                >
+                </a>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <script src="transition.js"></script>
+    <script src="project.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>ABOUT</title>
+        <link rel="icon" type="image/png" href="images/favicon.png" />
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body class="about-page">
+        <div class="page-transition">
+            <div class="page-transition-fill"></div>
+        </div>
+        
+        <main class="hero">
+
+            <p class="version">v1.0</p>
+
+            <h1 class="title">
+                <a class="home-button" href="index.html">CASEY</a>
+            </h1>
+
+            <button
+                class="mobile-nav-toggle"
+                aria-label="Open navigation"
+                aria-expanded="false"
+            ></button>
+
+            <nav class="secondary-nav">
+                <a href="about.html" class="nav-roll">
+                    <span>About</span>
+                    <span aria-hidden="true">About</span>
+                </a>
+
+                <a href="works.html" class="nav-roll">
+                    <span>Works</span>
+                    <span aria-hidden="true">Works</span>
+                </a>
+
+                <a href="contact.html" class="nav-roll">
+                    <span>Contact</span>
+                    <span aria-hidden="true">Contact</span>
+                </a>
+
+                <a href="#" id="theme-toggle" class="nav-roll">
+                    <span>Theme</span>
+                    <span aria-hidden="true">Theme</span>
+                </a>
+            </nav>
+
+
+            <div class="about-hero-3d">
+                <div class="face-circle"></div>
+                <canvas id="about-hero-canvas"></canvas>
+            </div>
+            
+            <section class="intro">
+
+            <h2>Xin chào!</h2>
+
+            <p class="selectable">
+                Gaming, basketball, and dancing have always been some of my favorite ways to spend my time. Each one gives me a different kind of energy, from getting absorbed in a game to moving around with friends or competing on the court after a long day of classes.
+            </p>
+
+            <p class="selectable">
+                Graphic design started unexpectedly when I joined my high school English club and became one of its designers despite knowing absolutely nothing about design. With no experience to rely on, I taught myself through experimentation, tutorials, mistakes, and plenty of late nights figuring things out.
+            </p>
+
+            <p class="selectable">
+                My name is Casey Nguyen, a graphic designer who loves learning and turning ideas into visuals. I am always growing creatively too.  </p>
+
+            <p class="tldr-label">
+                Too long?<br>
+                that's fine,<br>
+                scroll down!
+            </p>
+
+            </section>
+        </main>
+        
+            <section class="tldr">
+
+
+                <h2 class="tldr-title">
+                    TL;DR
+                </h2>
+
+                <div class="tldr-main">
+                    <p>
+                        CASEY <em>IS A</em> CREATIVE STUDENT<br>
+                        <em>WHO IS</em> PASSIONATE <em>ABOUT</em><br>
+                        CRAFTING EYE CANDIES.
+                    </p>
+                </div>
+
+            </section>
+            
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/loaders/GLTFLoader.js"></script>
+
+            <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/EffectComposer.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/RenderPass.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/postprocessing/ShaderPass.js"></script>
+            <script src="about.js"></script>
+            <script src="transition.js"></script>
+        
+    </body>
+

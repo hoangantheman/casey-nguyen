@@ -36,11 +36,11 @@ const projects = {
             "images/sunflowerfull.png",
 
         trailImages: [
-            "images/sunflower-trail-1.jpg",
-            "images/sunflower-trail-2.jpg",
-            "images/sunflower-trail-3.jpg",
-            "images/sunflower-trail-4.jpg",
-            "images/sunflower-trail-5.jpg",
+            "images/sunflower-trail-1.JPG",
+            "images/sunflower-trail-2.JPG",
+            "images/sunflower-trail-3.JPG",
+            "images/sunflower-trail-4.JPG",
+            "images/sunflower-trail-5.JPG",
             "images/sunflower-trail-6.jpg"
         ],
 
